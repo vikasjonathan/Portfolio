@@ -1,9 +1,10 @@
+import resume from '../images/Resume1.pdf'
 export default function Resume() {
     return (
         <div>
             <h2>Resume Page</h2>
             <p>
-                Resume
+                <a href ={resume}target="_blank">Resume</a>
             </p>
         </div>
     );
