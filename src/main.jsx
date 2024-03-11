@@ -6,8 +6,9 @@ import AboutMe from './assets/pages/AboutMe.jsx'
 import Contact from './assets/pages/Contact.jsx'
 import Resume from './assets/pages/Resume.jsx'
 import Portfolio from './assets/pages/Portfolio.jsx'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-const router =createBrowserRoutes([
+const router =createBrowserRouter([
   {
     path: '/',
     element: <App/>,
